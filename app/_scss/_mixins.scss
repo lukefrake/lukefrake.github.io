@@ -1,0 +1,43 @@
+// Extra small screen / phone
+$screen-xs:480px;
+$screen-xs-min: $screen-xs;
+
+// Small screen / tablet
+$screen-sm:768px;
+$screen-sm-min: $screen-sm;
+
+// Medium screen / desktop
+$screen-md:992px;
+$screen-md-min: $screen-md;
+
+// Large screen / wide desktop
+$screen-lg:1200px;
+$screen-lg-min: $screen-lg;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xxs-max: ($screen-xs-min - 1);
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-sm-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+// Default Colors
+$darkBlue: #225378;
+$medBlue: #1695A3;
+$lightBlue: #ACF0F2;
+$offWhite: #F3FFE2;
+$orange: #EB7F00;
+$offBlack: #333;
+
+$backgroundColor: #fff;
+$bodyColor: $offBlack;
+
+$navColor: $orange;
+$navBackgroundColor: #000;
+$navBorder: $medBlue;
+$navSeperatorBorder: $lightBlue;
+
+$skillContainerColor: $darkBlue;
+$skillBarColor: $medBlue;

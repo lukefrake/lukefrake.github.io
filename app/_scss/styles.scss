@@ -1,0 +1,47 @@
+// Import some of bootstrap because I can be lazy
+@import 'normalize';
+@import "bourbon/bourbon";
+@import 'grid';
+@import 'mixins';
+
+body {
+	background: $backgroundColor;
+	color: $bodyColor;
+}
+
+* {
+	line-height: 2em;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	font-family: 'PT Serif', serif;
+}
+
+a {
+	color: $orange;
+	text-decoration: underline;
+	&:hover {
+		color: $orange;
+		text-decoration: none;
+	}
+}
+
+main {
+	overflow: hidden;
+}
+
+.information {
+	p {
+		float: left;
+		display: block;
+	}
+}
+
+.mainContainer {
+	padding: 0 15px;
+}
+
+// My styles
+@import 'navbar';
+@import 'footer';
+@import 'tile';
+@import 'work';
