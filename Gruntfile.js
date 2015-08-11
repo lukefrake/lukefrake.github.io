@@ -283,7 +283,6 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: '../',
           branch: 'master',
           commit: true,
           push: true
