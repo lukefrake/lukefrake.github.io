@@ -1,0 +1,7 @@
+{
+  "name": "lukefrakegithubio",
+  "version": "0.0.0",
+  "dependencies": {
+    "material-design-lite": "~1.0.2"
+  }
+}
